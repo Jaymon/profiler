@@ -14,7 +14,7 @@ quickly see how long something takes to run.
        # do something crazy
 
     p = profiler.stop()
-    print p # [PROFILE] my title - x.xx ms"
+    print p # [PROFILE] x.xx ms - my title"
 
 You can also profile sub blocks
 
