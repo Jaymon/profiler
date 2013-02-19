@@ -67,7 +67,7 @@ def stop(name=""):
         # http://stackoverflow.com/questions/2654113/
         d.name = inspect.stack()[1][3]
     
-    d.summary = "[PROFILING] %s - %s" % (d.total,d.name)
+    d.summary = "[PROFILE] %s - %s" % (d.total,d.name)
     
     return d
 
