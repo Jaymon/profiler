@@ -4,21 +4,18 @@
 import sys
 from setuptools import setup
 
-install_requires = []
-extra = {}
-version = '0.2.0'
+version = '0.3'
 
 
 setup(
     name='Profiler',
     version=version,
-    description='Easy Profiling',
+    description='Easy Profiling of blocks of code',
     author='Jay Marcyes',
     author_email='jay@marcyes.com',
     url='http://github.com/Jaymon/profiler',
-    packages=['profiler'],
+    py_modules=['profiler'],
     license="MIT",
-    install_requires=install_requires,
     zip_safe=True,
     classifiers=[
         'Development Status :: {}'.format(version),
@@ -28,6 +25,5 @@ setup(
         'Operating System :: OS Independent',
         'Topic :: Debug',
         ],
-    test_suite = "profiler.profilertest",
-    **extra
+    test_suite = "profilertest",
 )
