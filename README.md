@@ -1,3 +1,7 @@
+This module should work, but [pout](https://github.com/Jaymon/pout) has this same profiling code built-in and is actually maintained, so I would suggest using that.
+
+----------------------------------------------------------------------
+
 # Profiler
 
 A simple module to profile code blocks in Python
